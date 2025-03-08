@@ -93,15 +93,11 @@ pygmentsStyle = "nord"
   # If you want to add more icons, you can download the svg directly from https://simpleicons.org and
   # place them in your local icons directory (/static/svg/icons/)
   socialIcons = [
-    {name = "linux", url = "https://example.com"},
-    {name = "mastodon", url = "https://example.com"},
-    {name = "linkedin", url = "https://example.com"},
-    {name = "stackoverflow", url = "https://example.com"},
-    {name = "dribbble", url = "https://example.com"},
-    {name = "instagram", url = "https://example.com"},
+    {name = "github", url = "https://example.com"},
     {name = "twitch", url = "https://example.com"},
     {name = "youtube", url = "https://example.com"},
-    {name = "tiktok", url = "https://example.com"},
+    {name = "discord", url = "https://example.com"},
+    {name = "steam", url = "https://example.com"},
     {name = "email", url = "mailto:example@example.com"}
   ]
 
