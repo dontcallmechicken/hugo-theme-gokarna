@@ -41,10 +41,12 @@ pygmentsStyle = "nord"
   """
 
   # Choose the color shown when hyperlinks are hovered over
-  accentColor = "#FF4D4D"
+  # Default is #FF4D4D
+  #accentColor = "#FF4D4D"
   
   # Set the content font-size.
-  fontSize = "17.5px"
+  # Default is 17.5px
+  #fontSize = "17.5px"
 
   # Resource URL for the site avatar (home page and header)
   avatarURL = "/images/avatar.webp"
