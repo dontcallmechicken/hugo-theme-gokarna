@@ -1,16 +1,19 @@
 {{ define "main" }}
 <section class="home-about">
-	<div class="avatar">
+  <div class="avatar">
         {{ if isset .Site.Params "avatarurl" }}
         <img class={{ .Site.Params.AvatarSize | default "size-m" }} src='{{ .Scratch.Get "avatarImgSrc" }}' alt="{{ .Site.Params.AvatarAltText|default "avatar" }}">
         {{ end }}
-	</div>
+  </div>
 
     <h1>{{ .Site.Title }}</h1>
     {{ if isset .Site.Params "description" }}
         <h2>{{ .Site.Params.Description }}</h2>
     {{ end }}
-
+    {{ if isset .Site.Params "description2" }}
+        <p>{{ .Site.Params.Description2 }}<p>
+    {{ end }}
+    
 </section>
 
 <div class="flex-break"></div>
