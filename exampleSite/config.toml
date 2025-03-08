@@ -1,8 +1,8 @@
 baseURL = "https://gokarna-hugo.netlify.app"
-defaultContentLanguage = "en"
+defaultContentLanguage = "de"
+languageCode = "de"
 enableEmoji = true
 enableRobotsTXT = true
-languageCode = "en"
 theme = "gokarna"
 title = "Gokarna"
 
@@ -61,6 +61,24 @@ pygmentsStyle = "nord"
   #dateFormat = "2. January 2006"
   # International standard ISO 8601
   #dateFormat = "2006-01-02"
+
+  # Date Format Tokens
+  # Friday, January 27, 2023
+  #dateFormat = ":date_full"
+  # January 27, 2023
+  dateFormat = ":date_long"
+  # Jan 27, 2023
+  #dateFormat = ":date_medium"
+  # 1/27/23
+  #dateFormat = ":date_short"
+  # 11:44:58 pm Pacific Standard Time
+  #dateFormat = ":time_full"
+  # 11:44:58 pm PST
+  #dateFormat = ":time_long"
+  # 11:44:58 pm
+  #dateFormat = ":time_medium"
+  # 11:44 pm
+  #dateFormat = ":time_short"
   
   # Home page meta description
   description = "Sky above, sand below & peace within"
@@ -157,5 +175,5 @@ pygmentsStyle = "nord"
     ordered = false
 
 [minify]
-    minifyOutput = true
+    minifyOutput = false
 
