@@ -42,6 +42,9 @@ pygmentsStyle = "nord"
 
   # Choose the color shown when hyperlinks are hovered over
   accentColor = "#FF4D4D"
+  
+  # Set the content font-size.
+  fontSize = "17.5px"
 
   # Resource URL for the site avatar (home page and header)
   avatarURL = "/images/avatar.webp"
@@ -78,6 +81,9 @@ pygmentsStyle = "nord"
   # Display a "back to top" button on posts and pages: true, false
   # May not render on smaller screen sizes
   showBackToTopButton = true
+
+  # Display a post’s estimated reading time in minutes.
+  displayReadingTime = false
 
   # Display posts on the home page:
   # "popular" (order posts by weight)
