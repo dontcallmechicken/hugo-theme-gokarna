@@ -1,6 +1,7 @@
 .DS_Store
 geckodriver.log
 .idea/
+# Hugo Static Site Generator
 .hugo_build.lock
 # Ignore build dir (hugo server)
 exampleSite/public/
