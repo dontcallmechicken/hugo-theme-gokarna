@@ -1,6 +1,6 @@
 baseURL = "https://gokarna-hugo.netlify.app"
 defaultContentLanguage = "de"
-languageCode = "de"
+languageCode = "en"
 enableEmoji = true
 enableRobotsTXT = true
 theme = "gokarna"
@@ -57,12 +57,10 @@ pygmentsStyle = "nord"
 
   # Configure how post dates are displayed
   #dateFormat = "January 2, 2006"
-  # German variant of the date notation
-  #dateFormat = "2. January 2006"
-  # International standard ISO 8601
-  #dateFormat = "2006-01-02"
-
-  # Date Format Tokens
+  
+  # Configure how post dates are displayed
+  # with date format Tokens
+  # See https://gohugo.io/functions/time/format/
   # Friday, January 27, 2023
   #dateFormat = ":date_full"
   # January 27, 2023
