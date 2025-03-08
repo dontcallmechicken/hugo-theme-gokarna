@@ -2,6 +2,7 @@
 weight: 15
 title: "Theme Documentation - Advanced"
 date: 2020-05-06T21:29:01+08:00
+lastmod: 2025-03-25
 description: "Discover how to maximise Gokarna's potential"
 tags: ["installation", "configuration", "markdown"]
 type: post

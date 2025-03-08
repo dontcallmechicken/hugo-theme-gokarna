@@ -6,6 +6,10 @@ languageCode = "en"
 theme = "gokarna"
 title = "Gokarna"
 
+# Define the copyright notice for your site. The notice will only be displayed on page Kinds.
+# The years of 'date' and 'lastmod' in the front matter are used to create a date range for your copyrighted material.
+#copyright = "Verbatim copying and distribution of this entire article are permitted worldwide, without royalty, in any medium, provided this notice is preserved."
+
 # Hugo lets you choose the color scheme for the codeblocks.
 # You can choose from the options here: https://xyproto.github.io/splash/docs/all.html
 # You can choose one of this preselection: monokai, emacs, trac, perldoc, nord and nordic.
@@ -98,7 +102,6 @@ pygmentsStyle = "nord"
     {name = "twitch", url = "https://example.com"},
     {name = "youtube", url = "https://example.com"},
     {name = "tiktok", url = "https://example.com"},
-    {name = "phone", url = "https://example.com"},
     {name = "email", url = "mailto:example@example.com"}
   ]
 
