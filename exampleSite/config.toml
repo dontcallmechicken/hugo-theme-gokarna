@@ -3,10 +3,13 @@ defaultContentLanguage = "en"
 enableEmoji = true
 enableRobotsTXT = true
 languageCode = "en"
-# Choose one of emacs, trac or perldoc
-pygmentsStyle = "monokai"
 theme = "gokarna"
 title = "Gokarna"
+
+# Hugo lets you choose the color scheme for the codeblocks.
+# You can choose from the options here: https://xyproto.github.io/splash/docs/all.html
+# You can choose one of this preselection: monokai, emacs, trac, perldoc, nord and nordic.
+pygmentsStyle = "nord"
 
 [params]
   # Inject arbitrary HTML via the <head> tag
