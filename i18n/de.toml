@@ -3,11 +3,11 @@
 [Popular]
     others = 'Einträge'
 [error404]
-    other = 'Diese Seite existiert (noch) nicht, gehen Sie zu zurück auf'
+    other = 'Diese Seite existiert (noch) nicht, gehen Sie zu zurück auf die'
 [home]
-    other = 'Los'
+    other = 'Startseite'
 [nothing]
-    other = 'Hier gibt es noch nichts zu sehen 😉'
+    other = 'Hier gibt es noch nichts zu sehen.'
 [previous]
     other = 'Vorheriger Eintrag'
 [next]
