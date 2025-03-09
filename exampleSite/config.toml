@@ -125,6 +125,11 @@ pygmentsStyle = "nord"
     {name = "email", url = "mailto:example@example.com"}
   ]
 
+  # Specifies where to open the linked document.
+  # Default ist 'blank'.
+  # blank, parent, self, top
+  socialIconsTarget = "blank"
+
 [menu]
   [[menu.main]]
     name = "Home"
