@@ -1,5 +1,5 @@
 baseURL = "https://gokarna-hugo.netlify.app"
-defaultContentLanguage = "de"
+defaultContentLanguage = "en"
 languageCode = "en"
 enableEmoji = true
 enableRobotsTXT = true
